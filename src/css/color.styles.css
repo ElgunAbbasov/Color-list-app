@@ -1,0 +1,53 @@
+.color-item-backcolor{
+    background: rgb(194, 146, 161);
+    border-radius: 14px;
+    width: 96px;
+    height: 48px;
+    margin-left: 24px;
+    border: 1px solid rgb(225, 226, 227) !important;
+}
+
+.color-list-component{
+    
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    -webkit-box-align: center;
+    align-items: center;
+    grid-gap: 10px;
+  
+}
+.color-list-item-container{
+    width: 420px;
+    height: 97px;
+    background: rgb(249, 249, 250);
+    box-shadow: rgba(12, 20, 33, 0.04) 0px 13px 31px, rgba(12, 20, 33, 0.03) 0px 9.45547px 20.8947px, rgba(12, 20, 33, 0.027) 0px 6.58125px 13.5141px, rgba(12, 20, 33, 0.024) 0px 4.31641px 8.38574px, rgba(12, 20, 33, 0.02) 0px 2.6px 5.0375px, rgba(12, 20, 33, 0.016) 0px 1.37109px 2.99707px, rgba(12, 20, 33, 0.01) 0px 0.56875px 1.79219px, rgb(255, 255, 255) 0px 2px 1px inset;
+    border-radius: 30px;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    margin: 30px;
+}
+.text-div{
+    width: auto;
+    height: 49px;
+    filter: drop-shadow(rgb(255, 255, 255) 0px 0px 3px);
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    margin-left: 18px;
+    margin-right: 24px
+}
+.name-title{
+    font-weight: bold;
+    font-size: 22px;
+    text-transform: uppercase;
+    color: rgb(0, 0, 0);
+}
+.hex-title{
+    font-weight: normal;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: rgb(47, 49, 50);
+}
